@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1c1c1c, #0f0f0f);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: rgba(20, 20, 20, 0.9);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    width: 80%;
+    height: 80%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.speciality {
+    margin-bottom: 15px;
+}
+.head {
+    color: rgb(98, 197, 236);
+}
+.note {
+    font-size: 1em;
+    color: #ccc; /* Lighter color for contrast */
+    margin-top: 10px; /* Space above the note */
+    text-align: center; /* Center the text */
+    opacity: 0.8; /* Slightly transparent for a stylish look */
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 5px; /* Add margin for spacing between buttons */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#fullscreenButton {
+    background-color: #28a745; /* Different color for distinction */
+}
+
+#fullscreenButton:hover {
+    background-color: #218838; /* Darker shade on hover */
+}
