@@ -23,5 +23,27 @@
     <script src="script.js"></script>
 </body>
 </html>
+// Source - https://stackoverflow.com/a/14809584
+// Posted by Frankline
+// Retrieved 2026-02-11, License - CC BY-SA 3.0
+
+<html>
+<head>
+    <script type="text/javascript">
+    <!--
+        function populateIframe() {
+            var ifrm = document.getElementById('myIframe');
+            ifrm = (ifrm.contentWindow) ? ifrm.contentWindow : (ifrm.contentDocument.document) ? ifrm.contentDocument.document : ifrm.contentDocument;
+            ifrm.document.open();
+            ifrm.document.write('Hello World!');
+            ifrm.document.close();
+        }
+    //-->
+    </script>
+</head>
+<body onload="populateIframe();">
+    <iframe id="myIframe"></iframe>
+</body>
+</html>
 
 
